@@ -60,8 +60,10 @@ namespace GsbRapports
                 n.Add("libelle", txtLibFamille.Text);
                 //string id = ((Famille)this.cmbFamille.SelectedItem).id;
                 n.Add("idFamille", txtLibFamille.Tag.ToString());
-                byte[] tabByte = wb.UploadValues(url2, parametres);
-                string ticket = UnicodeEncoding.UTF8.GetString(n.ToString());
+                byte[] tabByte = wb.UploadValues(url, n);
+                string ticket = UnicodeEncoding.UTF8.GetString(tabByte);
+                this.laSecretaire.ticket = ticket.Substring(2);
+                MessageBox.Show("Vous avez bien modifié la famille");
 
             }
             catch(WebException ex)
