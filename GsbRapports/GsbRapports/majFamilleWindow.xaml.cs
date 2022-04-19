@@ -27,7 +27,6 @@ namespace GsbRapports
         private WebClient wb;
         private string site;
 
-        
         public majFamilleWindow(Secretaire laSecretaire, WebClient wb, string site)
         {
             InitializeComponent();
@@ -45,7 +44,6 @@ namespace GsbRapports
 
             this.cmbFamille.ItemsSource = l;
             this.cmbFamille.DisplayMemberPath = "libelle";
-
         }
 
         

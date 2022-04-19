@@ -21,13 +21,13 @@
                 <MenuItem Header="_médicaments">
 
                 </MenuItem>
-                <MenuItem Header="_visiteurs">
-
-                </MenuItem>
                 <MenuItem Header="_Familles">
                     <MenuItem Header="_Voir" Click="MenuItem_Click"/>
                     <MenuItem Header="_Modifier" Click="MenuItem_Click_1" />
                     <MenuItem Header="_Ajouter" Click="MenuItem_Click_2" />
+                </MenuItem>
+                <MenuItem Header="_visiteurs">
+                    <MenuItem Header="_Modifier"  Click="MenuItem_Click_4"/>
                 </MenuItem>
 
             </Menu>
