@@ -12,10 +12,11 @@
                 <TextBlock x:Name="txtLibVisiteurs" Margin="50,0,0,0" />
                 <ComboBox x:Name="cmbVisiteur" Width="100"/>
             </StackPanel>
-            <TextBox x:Name="txtLibVisiteur" Width="316"
-                     DataContext="{Binding SelectedItem, ElementName=cmbVisiteur}"
-                     Text="{Binding libelle}" Tag="{Binding id}" Height="19" RenderTransformOrigin="0.487,-0.486"/>
-           
+            <TextBox x:Name="txtIdVisiteur" Width="316" Height="19" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding id}"/>
+            <TextBox x:Name="txtVilleVisiteur" Width="316" Height="19" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding ville}"/>
+            <TextBox x:Name="txtAdresseVisiteur" Width="316" Height="19" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding adresse}"/>
+            <TextBox x:Name="txtCpVisiteur" Width="316" Height="19" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding cp}"/>
+            <Button x:Name="btnValider" Content="Valider" Width="100" Click="btnValider_Click"/>
         </StackPanel>
     </Grid>
 </Window>
