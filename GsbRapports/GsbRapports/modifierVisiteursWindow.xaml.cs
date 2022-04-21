@@ -48,17 +48,31 @@ namespace GsbRapports
         {
             try
             {
-                string url = this.site + "visiteur";
-                NameValueCollection parametres = new NameValueCollection();
-                parametres.Add("ticket", this.laSecretaire.getHashTicketMdp());
-                parametres.Add("idVisiteur", txtIdVisiteur.Text.ToString());
-                parametres.Add("ville", txtVilleVisiteur.Text.ToString());
-                parametres.Add("adresse", txtAdresseVisiteur.Text.ToString());
-                parametres.Add("cp", txtCpVisiteur.Text.ToString());
-                byte[] tabByte = wb.UploadValues(url, parametres);
-                string ticket = UnicodeEncoding.UTF8.GetString(tabByte);
-                this.laSecretaire.ticket = ticket.Substring(2);
-                MessageBox.Show("Vous avez bien modifié le visiteur");
+                bool trouve = true;
+                string cp = txtCpVisiteur.Text;
+
+                if (cp.Length != 5)
+                {
+                    MessageBox.Show("Veuillez entrer un code postal valide");
+                    trouve = false;
+                }
+
+                if (trouve)
+                {
+                    Visiteur v = (Visiteur)cmbVisiteur.SelectedItem;
+                    string id = v.id;
+                    string url = this.site + "visiteur";
+                    NameValueCollection parametres = new NameValueCollection();
+                    parametres.Add("ticket", this.laSecretaire.getHashTicketMdp());
+                    parametres.Add("idVisiteur", id);
+                    parametres.Add("ville", txtVilleVisiteur.Text);
+                    parametres.Add("adresse", txtAdresseVisiteur.Text);
+                    parametres.Add("cp", cp);
+                    byte[] tabByte = wb.UploadValues(url, parametres);
+                    string ticket = UnicodeEncoding.UTF8.GetString(tabByte);
+                    this.laSecretaire.ticket = ticket.Substring(2);
+                    MessageBox.Show("Vous avez bien modifié le visiteur");
+                }   
 
             }
             catch (WebException ex)
