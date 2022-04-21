@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Voir les Familles" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="dtgfamilles" Height="200" Width="300" >
+
+        <DataGrid x:Name="dtgfamilles" Height="200" Width="300">
             
         </DataGrid>
     </Grid>

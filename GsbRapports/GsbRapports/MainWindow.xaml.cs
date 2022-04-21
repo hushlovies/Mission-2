@@ -38,7 +38,9 @@ namespace GsbRapports
 
             this.DckMenu.Visibility= Visibility.Hidden;
             this.imgLogo.Visibility = Visibility.Hidden;
-            this.txtBonjour.Visibility = Visibility.Hidden; 
+            this.txtBonjour.Visibility = Visibility.Hidden;
+            
+
 
         }
 
@@ -49,6 +51,9 @@ namespace GsbRapports
                 string mdp = this.txtMdp.Password;
                 string login = this.txtLogin.Text;
                 string reponse; // la réponse retournée  par le serveur
+                this.imgLogo.Visibility = Visibility.Visible;
+
+
                 /* Création de la requête*/
                 string url = this.site + "login?login=" + login;
                 /*Appel à l'objet wb pour récupérer le résultat de la requête*/
@@ -70,6 +75,7 @@ namespace GsbRapports
                     url = this.site + "connexion?login=" + login + "&mdp=" + hash;
                     /* On récupère la réponse du serveur de type json */
                     reponse = this.wb.DownloadString(url);
+
                     /*On transforme la réponse json en objet Secrétaire!!*/
                     Secretaire s = JsonConvert.DeserializeObject<Secretaire>(reponse);
                     if (s == null)
@@ -112,7 +118,7 @@ namespace GsbRapports
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
-            ajoutFamilleWindow w = new ajoutFamilleWindow();
+            ajoutFamilleWindow w = new ajoutFamilleWindow(this.laSecretaire, this.wb, this.site);
             w.Show();
         }
     }

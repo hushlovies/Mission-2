@@ -6,20 +6,20 @@
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
         Title="Mise à jour des familles" Height="450" Width="800">
-     <Grid>
+    <Grid>
         <StackPanel Margin="0,50,0,0">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                 <TextBlock x:Name="txtLibFamilles" Margin="50,0,0,0" 
                            
                            />
-                <ComboBox x:Name="cmbFamille" Width="100"/>
+                <ComboBox x:Name="cmbFamille" Margin="30,0,0,0" Width="100"/>
 
 
             </StackPanel>
-            <TextBox x:Name="txtLibFamille" Width="316"
-                     DataContext="{Binding SelectedItem, ElementName=cmbFamille}"
-                     Text="{Binding libelle}" Tag="{Binding id}" Height="19" RenderTransformOrigin="0.487,-0.486"/>
-            <Button x:Name="btnValider" Content="Valider" Width="100" Click="btnValider_Click"/>
+            <TextBox x:Name="txtLibFamille" Margin="100,50,0,0" Width="100" HorizontalAlignment="Center"
+                     DataContext="{Binding ElementName=cmbFamille, Path=SelectedItem}"
+                            Text="{Binding libelle}" Tag="{Binding id}" />
+            <Button x:Name="btnValider" Content="Valider" Margin="0,100,0,0" Width="100" Click="btnValider_Click"/>
 
 
         </StackPanel>

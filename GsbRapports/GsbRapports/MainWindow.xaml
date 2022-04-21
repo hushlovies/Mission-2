@@ -35,7 +35,7 @@
 
         </DockPanel>
         <TextBox x:Name="txtBonjour" Width="150" Height="30" Margin="50,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FFADE693"/>
-        <StackPanel  Orientation ="Horizontal" Margin="5,138,5,0" Height="267" VerticalAlignment="Top" >
+        <StackPanel  Orientation ="Horizontal" Margin="0,100,0,0" >
             <StackPanel Height="100" Margin="0" x:Name="stPanel">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="Login" Margin="20,0,0,0"/>
@@ -48,9 +48,9 @@
                 </StackPanel>
 
             </StackPanel>
-            <Image Height="168" Width="411" Source="gsb.jpg" x:Name="imgLogo" />
+            <Image Height="200" Width="241" Source="gsb.jpg" Margin="80,50,600,59" x:Name="imgLogo" />
         </StackPanel>
-
+       
 
     </Grid>
 </Window>
