@@ -11,9 +11,14 @@ namespace dllRapportVisites
         public string id { get; set; }
         public string nom { get; set; }
         public string prenom { get; set; }
+        public string concatNomPrenom { get 
+            { return this.nom + " " + this.prenom; } 
+        }//Je concatene le nom et le prenom pour l'afficher dans la liste déroulante de modifier visiteur
+
         public string ville { get; set; }
         public string adresse { get; set; }
         public string cp { get; set; }
+
         public DateTime dateEmbauche { get; set; }
         public Visiteur(string id, string nom, string ville, string adresse, string cp, string prenom, DateTime date)
         {
