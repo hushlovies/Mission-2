@@ -121,5 +121,12 @@ namespace GsbRapports
             ajoutFamilleWindow w = new ajoutFamilleWindow(this.laSecretaire, this.wb, this.site);
             w.Show();
         }
+
+       
+        private void MenuItem_Click_6(object sender, RoutedEventArgs e)
+        {
+            ajouterVisiteurWindow w = new ajouterVisiteurWindow(this.laSecretaire, this.wb, this.site);
+            w.Show();
+        }
     }
 }

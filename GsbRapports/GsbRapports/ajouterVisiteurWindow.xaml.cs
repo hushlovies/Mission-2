@@ -1,6 +1,8 @@
-﻿using System;
+﻿using dllRapportVisites;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -19,9 +21,25 @@ namespace GsbRapports
     /// </summary>
     public partial class ajouterVisiteurWindow : Window
     {
-        public ajouterVisiteurWindow()
+        private Secretaire laSecretaire;
+        private WebClient wb;
+        private string site;
+
+        public ajouterVisiteurWindow(Secretaire laSecretaire, WebClient wb, string site)
         {
             InitializeComponent();
+            this.laSecretaire = laSecretaire;
+            this.wb = wb;
+            this.site = site;
+        }       
+        private void btnValider_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnAnnuler_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

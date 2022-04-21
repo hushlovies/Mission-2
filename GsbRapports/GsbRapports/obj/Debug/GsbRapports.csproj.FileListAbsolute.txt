@@ -76,3 +76,32 @@ E:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRappo
 E:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\GsbRapports\obj\Debug\GsbRapports.csproj.CopyComplete
 E:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\GsbRapports\obj\Debug\GsbRapports.exe
 E:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\GsbRapports\obj\Debug\GsbRapports.pdb
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.csproj.AssemblyReference.cache
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.csproj.SuggestedBindingRedirects.cache
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\ajouterVisiteurWindow.g.cs
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\ajoutFamilleWindow.g.cs
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\MainWindow.g.cs
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\majFamilleWindow.g.cs
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\VoirFamillesWindow.g.cs
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\App.g.cs
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports_MarkupCompile.cache
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports_MarkupCompile.lref
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.exe
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.pdb
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\bin\Debug\GsbRapports.exe.config
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\bin\Debug\GsbRapports.exe
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\bin\Debug\GsbRapports.pdb
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\bin\Debug\dllRapportVisites.dll
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\bin\Debug\Newtonsoft.Json.dll
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\bin\Debug\dllRapportVisites.pdb
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\bin\Debug\Newtonsoft.Json.xml
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\ajoutFamilleWindow.baml
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\MainWindow.baml
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\majFamilleWindow.baml
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\VoirFamillesWindow.baml
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\ajouterVisiteurWindow.baml
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.g.resources
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.Properties.Resources.resources
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.csproj.GenerateResource.cache
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.csproj.CoreCompileInputs.cache
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.csproj.CopyComplete
