@@ -9,26 +9,29 @@
     
     <Grid Height="450" Width="800">
         
-        <TextBox x:Name="txtIdVisiteur" TextWrapping="Wrap" Margin="140,59,520,372" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtIdVisiteur" TextWrapping="Wrap" Margin="140,59,520,372" />
         <TextBlock TextWrapping="Wrap" Text="Id Visiteur" Margin="50,59,676,352" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
-        <TextBox x:Name="txtNom" TextWrapping="Wrap" Margin="140,93,520,340" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtNom" TextWrapping="Wrap" Margin="140,93,520,340" />
         <TextBlock TextWrapping="Wrap" Text="Nom" Margin="50,91,676,320" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
-        <TextBox x:Name="txtPrenom" TextWrapping="Wrap" Margin="140,129,520,302" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtPrenom" TextWrapping="Wrap" Margin="140,129,520,302" />
         <TextBlock TextWrapping="Wrap" Text="Prenom" Margin="50,129,676,282" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
-        <TextBox x:Name="txtCodePostale" TextWrapping="Wrap" Margin="140,198,520,232" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtCodePostale" TextWrapping="Wrap" Margin="140,198,520,232" />
         <TextBlock TextWrapping="Wrap" Text="Code Postale" Margin="50,198,676,213" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
-        <TextBox x:Name="txtAdresse" TextWrapping="Wrap" Margin="140,162,520,270" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtVille" TextWrapping="Wrap" Margin="140,233,520,197" />
+        <TextBlock TextWrapping="Wrap" Text="Ville" Margin="50,236,676,201" RenderTransformOrigin="0.514,0.479"></TextBlock>
+
+        <TextBox x:Name="txtAdresse" TextWrapping="Wrap" Margin="140,162,520,270" />
         <TextBlock TextWrapping="Wrap" Text="Adresse" Margin="50,160,676,251" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
-        <TextBox x:Name="txtDateEmbauche" TextWrapping="Wrap" Margin="140,232,520,200" TextChanged="TextBox_TextChanged"/>
-        <TextBlock TextWrapping="Wrap" Text="Date d'embauche" Margin="50,226,676,177" RenderTransformOrigin="0.514,0.479"></TextBlock>
+        <TextBox x:Name="txtDateEmbauche" TextWrapping="Wrap" Margin="140,270,520,162" />
+        <TextBlock TextWrapping="Wrap" Text="Date d'embauche" Margin="50,264,676,139" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
-        <Button x:Name="btnValider" Content="Valider" Margin="269,308,421,111" Click="btnValider_Click"/>
-        <Button x:Name="btnAnnuler" Content="Annuler" Margin="437,308,253,111" Click="btnAnnuler_Click"/>
+        <Button x:Name="btnValider" Content="Valider" Margin="269,308,421,111" Click="btnValider_Click1" />
+        <Button x:Name="btnAnnuler" Content="Annuler" Margin="437,308,253,111" />
 
     </Grid>
 </Window>
