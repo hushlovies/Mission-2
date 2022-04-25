@@ -43,7 +43,7 @@ namespace GsbRapports
                     string url = this.site + "visiteurs";
                     NameValueCollection parametres = new NameValueCollection();
                     parametres.Add("ticket", this.laSecretaire.getHashTicketMdp());
-                    parametres.Add("idVisiteur", this.txtIdVisiteur.Text);
+                    parametres.Add("id", this.txtIdVisiteur.Text);
                     parametres.Add("nom", this.txtNom.Text);
                     parametres.Add("prenom", this.txtPrenom.Text);
                     parametres.Add("adresse", this.txtAdresse.Text);
