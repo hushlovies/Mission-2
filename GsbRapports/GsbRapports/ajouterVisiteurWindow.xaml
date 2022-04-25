@@ -18,8 +18,8 @@
         <TextBox x:Name="txtPrenom"  Margin="140,129,520,302" />
         <TextBlock Text="Prenom" Margin="50,129,676,282" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
-        <TextBox x:Name="txtCodePostale"  Margin="140,198,520,232" />
-        <TextBlock Text="Code Postale" Margin="50,198,676,213" RenderTransformOrigin="0.514,0.479"></TextBlock>
+        <TextBox x:Name="txtCodePostal"  Margin="140,198,520,232" />
+        <TextBlock Text="Code Postal" Margin="50,198,676,213" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
         <TextBox x:Name="txtVille"  Margin="140,233,520,197" />
         <TextBlock Text="Ville" Margin="50,236,676,201" RenderTransformOrigin="0.514,0.479"></TextBlock>
@@ -28,10 +28,10 @@
         <TextBlock Text="Adresse" Margin="50,160,676,251" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
         <TextBox x:Name="txtDateEmbauche"  Margin="140,270,520,162" />
-        <TextBlock Text="Date d'embauche" Margin="50,264,680,141" RenderTransformOrigin="0.514,0.479"></TextBlock>
+        <TextBlock Text="Date d'embauche" Margin="40,266,666,139" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
         <Button x:Name="btnValider" Content="Valider" Margin="269,308,421,111" Click="btnValider_Click1" />
-        <Button x:Name="btnAnnuler" Content="Annuler" Margin="437,308,253,111" />
+        <Button x:Name="btnAnnuler" Content="Annuler" Margin="437,308,253,111" Click="CloseButton_Click"/>
 
     </Grid>
 </Window>
