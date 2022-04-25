@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Newtonsoft.Json;
 using System.Collections.Specialized;
+using System.Text.RegularExpressions;
 
 namespace GsbRapports
 {
@@ -40,20 +41,41 @@ namespace GsbRapports
             
                 try
                 {
-                    string url = this.site + "visiteurs";
-                    NameValueCollection parametres = new NameValueCollection();
-                    parametres.Add("ticket", this.laSecretaire.getHashTicketMdp());
-                    parametres.Add("idVisiteur", this.txtIdVisiteur.Text);
-                    parametres.Add("nom", this.txtNom.Text);
-                    parametres.Add("prenom", this.txtPrenom.Text);
-                    parametres.Add("adresse", this.txtAdresse.Text);
-                    parametres.Add("cp", this.txtCodePostal.Text);
-                    parametres.Add("ville", this.txtVille.Text);
-                    parametres.Add("dateEmbauche", this.txtDateEmbauche.Text);
-                    byte[] tabByte = wb.UploadValues(url, parametres); // envoie des donnés en post 
-                    string ticket = UnicodeEncoding.UTF8.GetString(tabByte);
-                    this.laSecretaire.ticket = ticket.Substring(2);// anti slash n 
-                    MessageBox.Show("Ajout d'un visiteur effectué");
+                    bool ok = true;
+                
+                    if (this.txtIdVisiteur.Text.Length != 3) 
+                    { ok = false;
+                        MessageBox.Show("id doit contenir 3 caracteres");
+                    }
+
+                    if(this.txtCodePostal.Text.Length!= 5)
+                    { ok = false;
+                        MessageBox.Show("cp doit contenir 5 chiffres");
+                    }
+
+                    
+
+                if (ok)
+                    {
+                        string url = this.site + "visiteurs";
+                        NameValueCollection parametres = new NameValueCollection();
+                        parametres.Add("ticket", this.laSecretaire.getHashTicketMdp());
+                        parametres.Add("idVisiteur", this.txtIdVisiteur.Text);
+                        parametres.Add("nom", this.txtNom.Text);
+                        parametres.Add("prenom", this.txtPrenom.Text);
+                        parametres.Add("adresse", this.txtAdresse.Text);
+                        parametres.Add("cp", this.txtCodePostal.Text);
+                        parametres.Add("ville", this.txtVille.Text);
+                        string date1 = this.txtDateEmbauche.Text;
+                        DateTime dTime = Convert.ToDateTime(date1);
+                        string dateTime1 = dTime.ToString("yyyy-MM-dd");
+                        parametres.Add("dateEmbauche", dateTime1);
+                        byte[] tabByte = wb.UploadValues(url, parametres); // envoie des donnés en post 
+                        string ticket = UnicodeEncoding.UTF8.GetString(tabByte);
+                        this.laSecretaire.ticket = ticket.Substring(2);// anti slash n 
+                        MessageBox.Show("Ajout d'un visiteur effectué");
+                    }
+                    
 
                 }
                 catch (WebException ex)

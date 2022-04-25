@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
         Title="Ajouter un visiteur" Height="450" Width="800">
-    
+
     <Grid Height="450" Width="800">
-        
+
         <TextBox x:Name="txtIdVisiteur"  Margin="140,59,520,372" />
         <TextBlock Text="Id Visiteur" Margin="50,59,676,352" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
@@ -27,8 +27,9 @@
         <TextBox x:Name="txtAdresse"  Margin="140,162,520,270" />
         <TextBlock Text="Adresse" Margin="50,160,676,251" RenderTransformOrigin="0.514,0.479"></TextBlock>
 
-        <TextBox x:Name="txtDateEmbauche"  Margin="140,270,520,162" />
+
         <TextBlock Text="Date d'embauche" Margin="40,266,666,139" RenderTransformOrigin="0.514,0.479"></TextBlock>
+        <DatePicker x:Name="txtDateEmbauche" HorizontalAlignment="Left" Margin="139,266,0,0" VerticalAlignment="Top" Width="170" Height="32"/>
 
         <Button x:Name="btnValider" Content="Valider" Margin="269,308,421,111" Click="btnValider_Click1" />
         <Button x:Name="btnAnnuler" Content="Annuler" Margin="437,308,253,111" Click="CloseButton_Click"/>
