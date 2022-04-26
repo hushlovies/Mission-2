@@ -79,3 +79,5 @@ C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\GsbRapp
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\GsbRapports.pdb
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\modifierVisiteursWindow.g.cs
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\modifierVisiteursWindow.baml
+C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\RapportVisiteurs.g.cs
+C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\RapportVisiteurs.baml

@@ -28,6 +28,7 @@
                 </MenuItem>
                 <MenuItem Header="_visiteurs">
                     <MenuItem Header="_Modifier"  Click="MenuItem_Click_4"/>
+                    <MenuItem Header="_Gerer les rapports" Click="MenuItem_Click5"/>
                 </MenuItem>
 
             </Menu>

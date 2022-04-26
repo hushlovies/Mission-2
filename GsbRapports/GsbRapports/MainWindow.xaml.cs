@@ -121,5 +121,12 @@ namespace GsbRapports
             modifierVisiteursWindow w = new modifierVisiteursWindow(this.laSecretaire, this.wb, this.site);
             w.Show();
         }
+
+        private void MenuItem_Click5(object sender, RoutedEventArgs e)
+        {
+            RapportVisiteurs w = new RapportVisiteurs(this.laSecretaire, this.wb, this.site);
+            w.Show();
+        }
+        
     }
 }
