@@ -4,6 +4,7 @@ C:\Users\grand\OneDrive\GretaMetehor\PPE\GSB\Mission3ClientLourdServiceRest2019\
 C:\Users\grand\OneDrive\GretaMetehor\PPE\GSB\Mission3ClientLourdServiceRest2019\ClientRestWpf\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.CoreCompileInputs.cache
 C:\Users\grand\OneDrive\GretaMetehor\PPE\GSB\Mission3ClientLourdServiceRest2019\ClientRestWpf\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.dll
 C:\Users\grand\OneDrive\GretaMetehor\PPE\GSB\Mission3ClientLourdServiceRest2019\ClientRestWpf\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.pdb
+<<<<<<< HEAD
 C:\Users\conti\Desktop\Mission-2\GsbRapports\dllRapportVisites\bin\Debug\dllRapportVisites.dll
 C:\Users\conti\Desktop\Mission-2\GsbRapports\dllRapportVisites\bin\Debug\dllRapportVisites.pdb
 C:\Users\conti\Desktop\Mission-2\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.AssemblyReference.cache
@@ -16,3 +17,11 @@ C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\dllRapportVisites\obj\Debug\d
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.dll
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.pdb
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.AssemblyReference.cache
+=======
+D:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\dllRapportVisites\bin\Debug\dllRapportVisites.dll
+D:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\dllRapportVisites\bin\Debug\dllRapportVisites.pdb
+D:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.AssemblyReference.cache
+D:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.CoreCompileInputs.cache
+D:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.dll
+D:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.pdb
+>>>>>>> Kaira

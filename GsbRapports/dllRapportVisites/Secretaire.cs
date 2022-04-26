@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Security.Cryptography;//pour le hachage
+using System.Security.Cryptography;
 
 namespace dllRapportVisites
 {
     public class Secretaire
     {
-        public string nom { get; set; } //rappel get set pour le binding
+        public string nom { get; set; }
         public string prenom { get; set; }
         public string ticket { get; set; }
         public string mdp { get; set; }

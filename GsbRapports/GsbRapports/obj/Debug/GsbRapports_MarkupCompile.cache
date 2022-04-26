@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\
+=======
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\
+>>>>>>> Kaira
 GsbRapports
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\App.xaml
 51127066156
 
 9-1663148934
 16-2054243834
 ajoutFamilleWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;modifierVisiteursWindow.xaml;VoirFamillesWindow.xaml;
+=======
+C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\App.xaml
+51107538518
+
+9-891373712
+16-1178254293
+ajouterVisiteurWindow.xaml;ajoutFamilleWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;VoirFamillesWindow.xaml;
+>>>>>>> Kaira
 
 False
 

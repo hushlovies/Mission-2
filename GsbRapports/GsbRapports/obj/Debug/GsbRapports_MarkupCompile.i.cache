@@ -10,11 +10,19 @@ none
 false
 DEBUG;TRACE
 C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\App.xaml
+<<<<<<< HEAD
 5-1305774348
 
 10-903940892
 16-1178254293
 ajoutFamilleWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;modifierVisiteursWindow.xaml;VoirFamillesWindow.xaml;
+=======
+51107538518
+
+101321504966
+16-1178254293
+ajouterVisiteurWindow.xaml;ajoutFamilleWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;VoirFamillesWindow.xaml;
+>>>>>>> Kaira
 
 False
 

@@ -1,0 +1,9 @@
+C:\Users\grand\OneDrive\2TSSLAM\C#\ClientRestGsbRapports\mdlGsbRapportsVisite\bin\Debug\mdlGsbRapportsVisite.dll
+C:\Users\grand\OneDrive\2TSSLAM\C#\ClientRestGsbRapports\mdlGsbRapportsVisite\bin\Debug\mdlGsbRapportsVisite.pdb
+C:\Users\grand\OneDrive\2TSSLAM\C#\ClientRestGsbRapports\mdlGsbRapportsVisite\obj\Debug\mdlGsbRapportsVisite.csprojResolveAssemblyReference.cache
+C:\Users\grand\OneDrive\2TSSLAM\C#\ClientRestGsbRapports\mdlGsbRapportsVisite\obj\Debug\mdlGsbRapportsVisite.dll
+C:\Users\grand\OneDrive\2TSSLAM\C#\ClientRestGsbRapports\mdlGsbRapportsVisite\obj\Debug\mdlGsbRapportsVisite.pdb
+C:\Users\grand\OneDrive\2TSSLAM\PPE\Mission3ClientLourdServiceRest2019\ClientRestGsbRapports\mdlGsbRapportsVisite\bin\Debug\mdlGsbRapportsVisite.dll
+C:\Users\grand\OneDrive\2TSSLAM\PPE\Mission3ClientLourdServiceRest2019\ClientRestGsbRapports\mdlGsbRapportsVisite\bin\Debug\mdlGsbRapportsVisite.pdb
+C:\Users\grand\OneDrive\2TSSLAM\PPE\Mission3ClientLourdServiceRest2019\ClientRestGsbRapports\mdlGsbRapportsVisite\obj\Debug\mdlGsbRapportsVisite.dll
+C:\Users\grand\OneDrive\2TSSLAM\PPE\Mission3ClientLourdServiceRest2019\ClientRestGsbRapports\mdlGsbRapportsVisite\obj\Debug\mdlGsbRapportsVisite.pdb
