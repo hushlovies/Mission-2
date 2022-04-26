@@ -9,6 +9,14 @@ GsbRapports
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
+C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\App.xaml
+61247923325
+
+11-774099918
+16-2054243834
+ajoutFamilleWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;modifierVisiteursWindow.xaml;RapportVisiteurs.xaml;VoirFamillesWindow.xaml;
+=======
 C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\App.xaml
 <<<<<<< HEAD
 5-1305774348
@@ -16,6 +24,7 @@ C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\App.xaml
 10-903940892
 16-1178254293
 ajoutFamilleWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;modifierVisiteursWindow.xaml;VoirFamillesWindow.xaml;
+<<<<<<< HEAD
 =======
 51107538518
 
@@ -23,6 +32,9 @@ ajoutFamilleWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;modifierVisiteursW
 16-1178254293
 ajouterVisiteurWindow.xaml;ajoutFamilleWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;VoirFamillesWindow.xaml;
 >>>>>>> Kaira
+=======
+>>>>>>> 423100a8c26e291948c101c323dc7cba76652127
+>>>>>>> 3a48d5944e1ddc1d00f873dd6957c7ba19a61def
 
 False
 

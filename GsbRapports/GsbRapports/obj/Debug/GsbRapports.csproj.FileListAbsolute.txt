@@ -80,6 +80,7 @@ C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\GsbRapp
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\GsbRapports.pdb
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\modifierVisiteursWindow.g.cs
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\modifierVisiteursWindow.baml
+<<<<<<< HEAD
 =======
 D:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\GsbRapports\bin\Debug\GsbRapports.exe.config
 D:\BTS SIO Projet - Progammation\Développement\C#\ProgOrienteObjet\Wpf\GsbRapportsWPF\GsbRapports\GsbRapports\bin\Debug\GsbRapports.exe
@@ -163,3 +164,7 @@ C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports
 C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.csproj.CoreCompileInputs.cache
 C:\Users\conti\Desktop\REST\kaiira\GsbRapports\GsbRapports\obj\Debug\GsbRapports.csproj.CopyComplete
 >>>>>>> Kaira
+=======
+C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\RapportVisiteurs.g.cs
+C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\GsbRapports\obj\Debug\RapportVisiteurs.baml
+>>>>>>> 3a48d5944e1ddc1d00f873dd6957c7ba19a61def

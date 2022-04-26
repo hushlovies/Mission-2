@@ -134,5 +134,12 @@ namespace GsbRapports
 >>>>>>> Kaira
             w.Show();
         }
+
+        private void MenuItem_Click5(object sender, RoutedEventArgs e)
+        {
+            RapportVisiteurs w = new RapportVisiteurs(this.laSecretaire, this.wb, this.site);
+            w.Show();
+        }
+        
     }
 }

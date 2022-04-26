@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="RapportVisiteurs" Height="450" Width="800">
     <Grid>
+<<<<<<< HEAD
         <ComboBox x:Name="lstDateUn" HorizontalAlignment="Left" Margin="53,109,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="lstDateDeux" HorizontalAlignment="Left" Margin="53,205,0,0" VerticalAlignment="Top" Width="120"/>
 
@@ -23,5 +24,26 @@
         </DataGrid>
 
 
+=======
+
+        <ComboBox x:Name="cmbVisiteurs" HorizontalAlignment="Left" Margin="40,82,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
+        <DatePicker x:Name="dtpDate1" HorizontalAlignment="Left" Margin="40,150,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
+        <DatePicker x:Name="dtpDate2" HorizontalAlignment="Left" Margin="40,214,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
+        <Button  x:Name="valider" Content="Valider" HorizontalAlignment="Left" Margin="40,278,0,0" VerticalAlignment="Top" Width="170" Height="31" Click="valider_Click"/>
+
+
+        <DataGrid x:Name="dtGridRapports" AutoGenerateColumns="False" Margin="273,74,76,82"  AlternatingRowBackground = "LightBlue">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Medecin"  Width="205" 
+                    Binding="{Binding concatNomPrenomMedecin}" Foreground="BLACK"/>
+                <DataGridTextColumn Header="Date"  Width="205" 
+                    Binding="{Binding date}" Foreground="BLACK"/>
+                <DataGridTextColumn Header="motif"  Width="205" 
+                    Binding="{Binding motif}" Foreground="BLACK"/>
+                <DataGridTextColumn Header="Bilan"  Width="205" 
+                    Binding="{Binding bilan}" Foreground="BLACK"/>
+            </DataGrid.Columns>
+        </DataGrid>
+>>>>>>> 3a48d5944e1ddc1d00f873dd6957c7ba19a61def
     </Grid>
 </Window>
